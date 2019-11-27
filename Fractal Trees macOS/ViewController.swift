@@ -27,10 +27,9 @@ class ViewController: NSViewController {
                 // Present the scene
                 view.presentScene(scene)
             }
-            
-            view.ignoresSiblingOrder = true
+//            view.ignoresSiblingOrder = true
 //            view.showsFPS = true
-//            view.showsNodeCount = true
+            view.showsNodeCount = true
         }
     }
 }

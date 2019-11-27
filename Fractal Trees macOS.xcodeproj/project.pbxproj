@@ -15,6 +15,7 @@
 		0AD61944238E238B00FDCB20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AD61942238E238B00FDCB20 /* Main.storyboard */; };
 		0AD61950238E238C00FDCB20 /* Fractal_Trees_macOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD6194F238E238C00FDCB20 /* Fractal_Trees_macOSTests.swift */; };
 		0AD6195B238E238C00FDCB20 /* Fractal_Trees_macOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD6195A238E238C00FDCB20 /* Fractal_Trees_macOSUITests.swift */; };
+		0AD6196B238E478200FDCB20 /* Branch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD6196A238E478200FDCB20 /* Branch.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		0AD61956238E238C00FDCB20 /* Fractal Trees macOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fractal Trees macOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AD6195A238E238C00FDCB20 /* Fractal_Trees_macOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fractal_Trees_macOSUITests.swift; sourceTree = "<group>"; };
 		0AD6195C238E238C00FDCB20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AD6196A238E478200FDCB20 /* Branch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Branch.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				0AD61936238E238900FDCB20 /* AppDelegate.swift */,
 				0AD61938238E238900FDCB20 /* Scene.sks */,
 				0AD6193C238E238900FDCB20 /* Scene.swift */,
+				0AD6196A238E478200FDCB20 /* Branch.swift */,
 				0AD6193E238E238900FDCB20 /* ViewController.swift */,
 				0AD61940238E238B00FDCB20 /* Assets.xcassets */,
 				0AD61942238E238B00FDCB20 /* Main.storyboard */,
@@ -262,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0AD6193F238E238900FDCB20 /* ViewController.swift in Sources */,
+				0AD6196B238E478200FDCB20 /* Branch.swift in Sources */,
 				0AD6193D238E238900FDCB20 /* Scene.swift in Sources */,
 				0AD61937238E238900FDCB20 /* AppDelegate.swift in Sources */,
 			);

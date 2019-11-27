@@ -11,40 +11,42 @@ import GameplayKit
 
 class Scene: SKScene {
     
+    // MARK: Variables
     var angle:CGFloat = CGFloat.pi/2
     var rotationConstant:CGFloat = CGFloat.pi/180
-    var angleConstant:CGFloat = CGFloat.pi/6
-
+    var angleConstant:CGFloat = CGFloat.pi/180
+    var angleSlope:CGFloat = CGFloat.pi/6
+    
+    var len:CGFloat = 200
+    
+    var totalBranches:Int = 0
+    var origin = CGPoint()
+    
+    var tree:[Branch] = []
+    
+    
+    
+    // MARK: Start Function
     override func didMove(to view: SKView) {
-        let len:CGFloat = 150
-        let origin = CGPoint(x: 0, y: -self.size.height/2)
-        
-        branch(_origin: origin, _angle: angle, _len: len)
-        
+        origin = CGPoint(x: 0, y: -self.size.height/2)
+        let root = Branch(origin: origin, angle: angle, len: len)
+        tree.append(root)
+      
     }
     
-    func branch(_origin: CGPoint, _angle: CGFloat, _len: CGFloat)  {
-        var currentLen = _len
-        let currentAngle = _angle
-        let origin = _origin
-        let tip = CGPoint(x: currentLen * cos(currentAngle) + origin.x, y: currentLen * sin(currentAngle) + origin.y)
-        
-        var path = [origin, tip]
-        let line = SKShapeNode(points: &path, count: path.count)
-        
-        line.lineWidth = 1
-        line.strokeColor = .white
-
-        self.addChild(line)
-        
-        print(currentAngle)
-        if(currentLen > 20){
-            currentLen *= 0.8
-            branch(_origin: tip, _angle: currentAngle - self.angleConstant, _len: currentLen)
-            branch(_origin: tip, _angle: currentAngle + self.angleConstant, _len: currentLen)
+    // MARK: Functions
+    func addBranches() {
+        if(self.children.count < 4096 - 1){
+            for b in tree.reversed(){
+                if(!b.growned){
+                    tree.append(b.branch(rol: true))
+                    tree.append(b.branch(rol: false))
+                }
+            }
         }
     }
     
+    // MARK: Inputs
     func touchDown(atPoint pos : CGPoint) {
       
     }
@@ -66,24 +68,38 @@ class Scene: SKScene {
     }
     
     override func mouseUp(with event: NSEvent) {
-        
+       addBranches()
     }
     
     override func keyDown(with event: NSEvent) {
         switch event.keyCode {
+        case 49:
+//            self.isPaused = !self.isPaused
+            tree = tree[0].reBranch(branches: tree)
+        case 123:
+            angleSlope -= CGFloat.pi/180
+            tree[0].angle += angleSlope * 2
+        case 124:
+            angleSlope += CGFloat.pi/180
+            tree[0].angle -= angleSlope * 2
+        case 125:
+            len -= 10
+        case 126:
+            len += 10
         default:
             print("keyDown: \(event.characters!) keyCode: \(event.keyCode)")
         }
+        
     }
     
-    
+    // MARK: Game Loop
     override func update(_ currentTime: TimeInterval) {
         // Called before each frame is rendered
-//        self.removeAllChildren()
-//        branch(_origin: CGPoint(x: 0, y: -self.size.height/2), _angle: angle, len: 100)
-//        angle += rotationConstant * 2
-//        if(angle > CGFloat.pi || angle < 0){
-//             rotationConstant *= -1
-//        }
+        self.removeAllChildren()
+        
+        for branch in tree {
+            branch.draw(scene: self)
+        }
+        
     }
 }
