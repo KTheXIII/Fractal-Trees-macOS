@@ -8,9 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		0AD61937238E238900FDCB20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD61936238E238900FDCB20 /* AppDelegate.swift */; };
-		0AD61939238E238900FDCB20 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0AD61938238E238900FDCB20 /* GameScene.sks */; };
-		0AD6193B238E238900FDCB20 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0AD6193A238E238900FDCB20 /* Actions.sks */; };
-		0AD6193D238E238900FDCB20 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD6193C238E238900FDCB20 /* GameScene.swift */; };
+		0AD61939238E238900FDCB20 /* Scene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0AD61938238E238900FDCB20 /* Scene.sks */; };
+		0AD6193D238E238900FDCB20 /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD6193C238E238900FDCB20 /* Scene.swift */; };
 		0AD6193F238E238900FDCB20 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD6193E238E238900FDCB20 /* ViewController.swift */; };
 		0AD61941238E238B00FDCB20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AD61940238E238B00FDCB20 /* Assets.xcassets */; };
 		0AD61944238E238B00FDCB20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AD61942238E238B00FDCB20 /* Main.storyboard */; };
@@ -38,9 +37,8 @@
 /* Begin PBXFileReference section */
 		0AD61933238E238900FDCB20 /* Fractal Trees macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fractal Trees macOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AD61936238E238900FDCB20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0AD61938238E238900FDCB20 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		0AD6193A238E238900FDCB20 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
-		0AD6193C238E238900FDCB20 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		0AD61938238E238900FDCB20 /* Scene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Scene.sks; sourceTree = "<group>"; };
+		0AD6193C238E238900FDCB20 /* Scene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene.swift; sourceTree = "<group>"; };
 		0AD6193E238E238900FDCB20 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0AD61940238E238B00FDCB20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0AD61943238E238B00FDCB20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -103,9 +101,8 @@
 			isa = PBXGroup;
 			children = (
 				0AD61936238E238900FDCB20 /* AppDelegate.swift */,
-				0AD61938238E238900FDCB20 /* GameScene.sks */,
-				0AD6193A238E238900FDCB20 /* Actions.sks */,
-				0AD6193C238E238900FDCB20 /* GameScene.swift */,
+				0AD61938238E238900FDCB20 /* Scene.sks */,
+				0AD6193C238E238900FDCB20 /* Scene.swift */,
 				0AD6193E238E238900FDCB20 /* ViewController.swift */,
 				0AD61940238E238B00FDCB20 /* Assets.xcassets */,
 				0AD61942238E238B00FDCB20 /* Main.storyboard */,
@@ -237,9 +234,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0AD61939238E238900FDCB20 /* GameScene.sks in Resources */,
+				0AD61939238E238900FDCB20 /* Scene.sks in Resources */,
 				0AD61941238E238B00FDCB20 /* Assets.xcassets in Resources */,
-				0AD6193B238E238900FDCB20 /* Actions.sks in Resources */,
 				0AD61944238E238B00FDCB20 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,7 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0AD6193F238E238900FDCB20 /* ViewController.swift in Sources */,
-				0AD6193D238E238900FDCB20 /* GameScene.swift in Sources */,
+				0AD6193D238E238900FDCB20 /* Scene.swift in Sources */,
 				0AD61937238E238900FDCB20 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
