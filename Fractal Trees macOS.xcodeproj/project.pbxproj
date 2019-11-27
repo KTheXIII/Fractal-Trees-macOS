@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AD61937238E238900FDCB20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD61936238E238900FDCB20 /* AppDelegate.swift */; };
+		0AD61939238E238900FDCB20 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0AD61938238E238900FDCB20 /* GameScene.sks */; };
+		0AD6193B238E238900FDCB20 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0AD6193A238E238900FDCB20 /* Actions.sks */; };
+		0AD6193D238E238900FDCB20 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD6193C238E238900FDCB20 /* GameScene.swift */; };
+		0AD6193F238E238900FDCB20 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD6193E238E238900FDCB20 /* ViewController.swift */; };
+		0AD61941238E238B00FDCB20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AD61940238E238B00FDCB20 /* Assets.xcassets */; };
+		0AD61944238E238B00FDCB20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AD61942238E238B00FDCB20 /* Main.storyboard */; };
+		0AD61950238E238C00FDCB20 /* Fractal_Trees_macOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD6194F238E238C00FDCB20 /* Fractal_Trees_macOSTests.swift */; };
+		0AD6195B238E238C00FDCB20 /* Fractal_Trees_macOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD6195A238E238C00FDCB20 /* Fractal_Trees_macOSUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0AD6194C238E238B00FDCB20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0AD6192B238E238900FDCB20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AD61932238E238900FDCB20;
+			remoteInfo = "Fractal Trees macOS";
+		};
+		0AD61957238E238C00FDCB20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0AD6192B238E238900FDCB20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AD61932238E238900FDCB20;
+			remoteInfo = "Fractal Trees macOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0AD61933238E238900FDCB20 /* Fractal Trees macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fractal Trees macOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AD61936238E238900FDCB20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0AD61938238E238900FDCB20 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		0AD6193A238E238900FDCB20 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		0AD6193C238E238900FDCB20 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		0AD6193E238E238900FDCB20 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0AD61940238E238B00FDCB20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0AD61943238E238B00FDCB20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0AD61945238E238B00FDCB20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AD61946238E238B00FDCB20 /* Fractal_Trees_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Fractal_Trees_macOS.entitlements; sourceTree = "<group>"; };
+		0AD6194B238E238B00FDCB20 /* Fractal Trees macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fractal Trees macOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AD6194F238E238C00FDCB20 /* Fractal_Trees_macOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fractal_Trees_macOSTests.swift; sourceTree = "<group>"; };
+		0AD61951238E238C00FDCB20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AD61956238E238C00FDCB20 /* Fractal Trees macOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fractal Trees macOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AD6195A238E238C00FDCB20 /* Fractal_Trees_macOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fractal_Trees_macOSUITests.swift; sourceTree = "<group>"; };
+		0AD6195C238E238C00FDCB20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0AD61930238E238900FDCB20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AD61948238E238B00FDCB20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AD61953238E238C00FDCB20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AD6192A238E238900FDCB20 = {
+			isa = PBXGroup;
+			children = (
+				0AD61935238E238900FDCB20 /* Fractal Trees macOS */,
+				0AD6194E238E238B00FDCB20 /* Fractal Trees macOSTests */,
+				0AD61959238E238C00FDCB20 /* Fractal Trees macOSUITests */,
+				0AD61934238E238900FDCB20 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0AD61934238E238900FDCB20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0AD61933238E238900FDCB20 /* Fractal Trees macOS.app */,
+				0AD6194B238E238B00FDCB20 /* Fractal Trees macOSTests.xctest */,
+				0AD61956238E238C00FDCB20 /* Fractal Trees macOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0AD61935238E238900FDCB20 /* Fractal Trees macOS */ = {
+			isa = PBXGroup;
+			children = (
+				0AD61936238E238900FDCB20 /* AppDelegate.swift */,
+				0AD61938238E238900FDCB20 /* GameScene.sks */,
+				0AD6193A238E238900FDCB20 /* Actions.sks */,
+				0AD6193C238E238900FDCB20 /* GameScene.swift */,
+				0AD6193E238E238900FDCB20 /* ViewController.swift */,
+				0AD61940238E238B00FDCB20 /* Assets.xcassets */,
+				0AD61942238E238B00FDCB20 /* Main.storyboard */,
+				0AD61945238E238B00FDCB20 /* Info.plist */,
+				0AD61946238E238B00FDCB20 /* Fractal_Trees_macOS.entitlements */,
+			);
+			path = "Fractal Trees macOS";
+			sourceTree = "<group>";
+		};
+		0AD6194E238E238B00FDCB20 /* Fractal Trees macOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				0AD6194F238E238C00FDCB20 /* Fractal_Trees_macOSTests.swift */,
+				0AD61951238E238C00FDCB20 /* Info.plist */,
+			);
+			path = "Fractal Trees macOSTests";
+			sourceTree = "<group>";
+		};
+		0AD61959238E238C00FDCB20 /* Fractal Trees macOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0AD6195A238E238C00FDCB20 /* Fractal_Trees_macOSUITests.swift */,
+				0AD6195C238E238C00FDCB20 /* Info.plist */,
+			);
+			path = "Fractal Trees macOSUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0AD61932238E238900FDCB20 /* Fractal Trees macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AD6195F238E238C00FDCB20 /* Build configuration list for PBXNativeTarget "Fractal Trees macOS" */;
+			buildPhases = (
+				0AD6192F238E238900FDCB20 /* Sources */,
+				0AD61930238E238900FDCB20 /* Frameworks */,
+				0AD61931238E238900FDCB20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fractal Trees macOS";
+			productName = "Fractal Trees macOS";
+			productReference = 0AD61933238E238900FDCB20 /* Fractal Trees macOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0AD6194A238E238B00FDCB20 /* Fractal Trees macOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AD61962238E238C00FDCB20 /* Build configuration list for PBXNativeTarget "Fractal Trees macOSTests" */;
+			buildPhases = (
+				0AD61947238E238B00FDCB20 /* Sources */,
+				0AD61948238E238B00FDCB20 /* Frameworks */,
+				0AD61949238E238B00FDCB20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0AD6194D238E238B00FDCB20 /* PBXTargetDependency */,
+			);
+			name = "Fractal Trees macOSTests";
+			productName = "Fractal Trees macOSTests";
+			productReference = 0AD6194B238E238B00FDCB20 /* Fractal Trees macOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0AD61955238E238C00FDCB20 /* Fractal Trees macOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AD61965238E238C00FDCB20 /* Build configuration list for PBXNativeTarget "Fractal Trees macOSUITests" */;
+			buildPhases = (
+				0AD61952238E238C00FDCB20 /* Sources */,
+				0AD61953238E238C00FDCB20 /* Frameworks */,
+				0AD61954238E238C00FDCB20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0AD61958238E238C00FDCB20 /* PBXTargetDependency */,
+			);
+			name = "Fractal Trees macOSUITests";
+			productName = "Fractal Trees macOSUITests";
+			productReference = 0AD61956238E238C00FDCB20 /* Fractal Trees macOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0AD6192B238E238900FDCB20 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Pratchaya Khansomboon";
+				TargetAttributes = {
+					0AD61932238E238900FDCB20 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					0AD6194A238E238B00FDCB20 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 0AD61932238E238900FDCB20;
+					};
+					0AD61955238E238C00FDCB20 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 0AD61932238E238900FDCB20;
+					};
+				};
+			};
+			buildConfigurationList = 0AD6192E238E238900FDCB20 /* Build configuration list for PBXProject "Fractal Trees macOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0AD6192A238E238900FDCB20;
+			productRefGroup = 0AD61934238E238900FDCB20 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0AD61932238E238900FDCB20 /* Fractal Trees macOS */,
+				0AD6194A238E238B00FDCB20 /* Fractal Trees macOSTests */,
+				0AD61955238E238C00FDCB20 /* Fractal Trees macOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0AD61931238E238900FDCB20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AD61939238E238900FDCB20 /* GameScene.sks in Resources */,
+				0AD61941238E238B00FDCB20 /* Assets.xcassets in Resources */,
+				0AD6193B238E238900FDCB20 /* Actions.sks in Resources */,
+				0AD61944238E238B00FDCB20 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AD61949238E238B00FDCB20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AD61954238E238C00FDCB20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0AD6192F238E238900FDCB20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AD6193F238E238900FDCB20 /* ViewController.swift in Sources */,
+				0AD6193D238E238900FDCB20 /* GameScene.swift in Sources */,
+				0AD61937238E238900FDCB20 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AD61947238E238B00FDCB20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AD61950238E238C00FDCB20 /* Fractal_Trees_macOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AD61952238E238C00FDCB20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AD6195B238E238C00FDCB20 /* Fractal_Trees_macOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0AD6194D238E238B00FDCB20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0AD61932238E238900FDCB20 /* Fractal Trees macOS */;
+			targetProxy = 0AD6194C238E238B00FDCB20 /* PBXContainerItemProxy */;
+		};
+		0AD61958238E238C00FDCB20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0AD61932238E238900FDCB20 /* Fractal Trees macOS */;
+			targetProxy = 0AD61957238E238C00FDCB20 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0AD61942238E238B00FDCB20 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0AD61943238E238B00FDCB20 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0AD6195D238E238C00FDCB20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0AD6195E238E238C00FDCB20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		0AD61960238E238C00FDCB20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Fractal Trees macOS/Fractal_Trees_macOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = K2MUD9266S;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Fractal Trees macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "KTheXIII.Fractal-Trees-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		0AD61961238E238C00FDCB20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Fractal Trees macOS/Fractal_Trees_macOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = K2MUD9266S;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Fractal Trees macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "KTheXIII.Fractal-Trees-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		0AD61963238E238C00FDCB20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = K2MUD9266S;
+				INFOPLIST_FILE = "Fractal Trees macOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "KTheXIII.Fractal-Trees-macOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fractal Trees macOS.app/Contents/MacOS/Fractal Trees macOS";
+			};
+			name = Debug;
+		};
+		0AD61964238E238C00FDCB20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = K2MUD9266S;
+				INFOPLIST_FILE = "Fractal Trees macOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "KTheXIII.Fractal-Trees-macOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fractal Trees macOS.app/Contents/MacOS/Fractal Trees macOS";
+			};
+			name = Release;
+		};
+		0AD61966238E238C00FDCB20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = K2MUD9266S;
+				INFOPLIST_FILE = "Fractal Trees macOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "KTheXIII.Fractal-Trees-macOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Fractal Trees macOS";
+			};
+			name = Debug;
+		};
+		0AD61967238E238C00FDCB20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = K2MUD9266S;
+				INFOPLIST_FILE = "Fractal Trees macOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "KTheXIII.Fractal-Trees-macOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Fractal Trees macOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0AD6192E238E238900FDCB20 /* Build configuration list for PBXProject "Fractal Trees macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AD6195D238E238C00FDCB20 /* Debug */,
+				0AD6195E238E238C00FDCB20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AD6195F238E238C00FDCB20 /* Build configuration list for PBXNativeTarget "Fractal Trees macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AD61960238E238C00FDCB20 /* Debug */,
+				0AD61961238E238C00FDCB20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AD61962238E238C00FDCB20 /* Build configuration list for PBXNativeTarget "Fractal Trees macOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AD61963238E238C00FDCB20 /* Debug */,
+				0AD61964238E238C00FDCB20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AD61965238E238C00FDCB20 /* Build configuration list for PBXNativeTarget "Fractal Trees macOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AD61966238E238C00FDCB20 /* Debug */,
+				0AD61967238E238C00FDCB20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0AD6192B238E238900FDCB20 /* Project object */;
+}
